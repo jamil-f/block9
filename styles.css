@@ -1,0 +1,119 @@
+body {
+   position: relative;
+   top: 80px;
+    background-color: rgb(150, 154, 121);
+    box-shadow: 0 0 10px black;
+    padding: 0px;
+    max-width: 1200px;
+    margin: 30px;
+    height: 500px;
+}
+.btwo {
+    position: relative;
+    top: 80px;
+     background-color: rgb(150, 154, 121);
+     box-shadow: 0 0 10px black;
+     padding: 0px;
+     max-width: 1200px;
+     margin: 30px;
+     height: 800px;
+}
+.jf {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    background-color: rgb(96, 7, 7)
+}
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    height: 80px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: green;
+    padding: 10px;
+}
+
+.fuji {
+    width: 500px;
+    height: auto;
+    position: relative; left: 130px; bottom: 45px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px; 
+}
+
+.mission {
+    position: relative; top: 250px;
+    text-align: center;
+}
+
+p {
+    position: relative;
+    text-align: center;
+    font-size: large;
+    margin: 20px;
+    
+}
+.equipment {
+    text-align: right;
+    
+}
+
+.generic {
+    position: relative; left: 150px;
+    width: 200px;
+    display: flex;
+    z-index: 1;
+}
+.video {
+    position: relative; left: 450px; bottom: 150px;
+    width: 200px;
+    display: flex;
+    z-index: 2;
+}
+.s1 {
+    position: relative; bottom: 230px;
+}
+.s2 {
+    position: relative; bottom: 230px;
+}
+
+.film {
+    position: relative; left: 750px; bottom: 280px;
+    width: 200px;
+    display: flex;
+    z-index: 3;
+}
+.photos {
+    width: 500px;
+    height: auto;
+    position: relative; left: 10px; bottom: 45px; top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.photoone {
+    width: 200px;
+    position: relative; left: 7px;
+}
+.phototwo {
+    width: 200px;
+    position: relative; left: 25px;
+}
+.photothree {
+    width: 200px;
+    position: relative; left: 40px;
+}
+.photofour {
+    width: 400px;
+    position: relative; left: 50px;
+}
