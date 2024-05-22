@@ -1,0 +1,1 @@
+This is my website. I have added three pages, a home page, Information page, and a Portfolio page. This page is just starting and look forward to updating this project as time goes on. Future updates include more photos, better formatted images, and improved responviesnes of overall website.
