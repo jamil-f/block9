@@ -6,6 +6,16 @@
     <title>Personal Website</title>
     <link rel="stylesheet" href="./styles.css">
     <script src="javascript.js"></script>
+    <style>
+        #links a {
+            color: gold;
+            text-decoration: none;
+        }
+        #links a:hover {
+            background-color: darkorange;
+            color: aqua;
+        }
+    </style>
 </head>
 <body class="btwo">
     <nav>
@@ -32,6 +42,34 @@
         <section class="s2">
             <h2>Additional Information</h2>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, atque dolores! Maiores molestiae cumque voluptatem, nam repellendus quibusdam nihil atque non quidem repudiandae ipsam perspiciatis totam, necessitatibus ullam dolores possimus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta quasi assumenda perspiciatis dolorum debitis. Dolorum, voluptate accusamus nobis provident doloribus veniam nam tenetur, dolorem accusantium quam nihil quibusdam, ea harum?</p>
+        </section>
+        <section>
+            <h2 class="formm">Contact Form</h2>
+            <form action="success.html" method="get">
+                <div class="formm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="formm">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="formm">
+                    <label for="bio">A Breif description of photography/videography services needed:</label>
+                    <textarea id="bio" name="bio" rows="4"></textarea>
+                </div>
+                <div class="formm">
+                    <label for="feedback">How Did Hear About Me?</label>
+                    <select id="pick" name="pick">
+                        <option value="face">Facebook</option>
+                        <option value="social">Friends/Family</option>
+                        <option value="ref">Reference</option>
+                    </select>
+                </div>
+                <div class="formm">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
         </section>
     </main>    
 </body>
